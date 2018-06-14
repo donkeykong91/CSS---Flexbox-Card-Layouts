@@ -43,12 +43,14 @@ body {
 /* Flexbox Stuff
 ----------------- */
 
-.cards {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
+@media screen and (min-width: 40em) {
+	.cards {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
 
-.card {
-	flex: 0 1 calc(33% - 1em);
+	.card {
+		flex: 0 1 calc(33% - 1em);
+	}
 }
