@@ -14,7 +14,7 @@ body {
 
 .card {
 	background: white;
-	margin-bottom: 2em;	
+	margin-bottom: 2em;
 }
 
 .card a {
@@ -38,4 +38,12 @@ body {
 
 .card-content p {
 	font-size: 95%;
+}
+
+/* Flexbox Stuff
+----------------- */
+
+.cards {
+	display: flex;
+	justify-content: space-between;
 }
