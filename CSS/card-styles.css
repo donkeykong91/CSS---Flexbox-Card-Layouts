@@ -51,6 +51,12 @@ body {
 	}
 
 	.card {
+		flex: 0 1 calc(50% - 1em);
+	}
+}
+
+@media screen and (min-width: 60em) {
+	.card {
 		flex: 0 1 calc(33% - 1em);
 	}
 }
